@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: #00b7ff;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    width: 620px;
+    height: 250px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.relogio{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #00ff88;
+}
+
+.pausar-relogio{
+    color: #e94747;
+}
