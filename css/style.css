@@ -40,3 +40,9 @@ body{
 .pausar-relogio{
     color: #e94747;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 100%;
+    }
+}
